@@ -1,0 +1,54 @@
+@font-face {
+    font-family: fontGOW;
+    src: url(/font/godofwar/GODOFWAR.TTF);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: CakeCafe;
+    src: url(/font/cakecafe/);
+    font-weight: normal;
+}
+
+*{
+    margin: 0%; 
+    padding: 0%;
+    font-family: 'fontGOW', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+:root {
+    --corPrincipal : black;
+    --corSecundaria : purple;
+    --corTerciaria : yellow;
+}
+
+header{
+    width: 100%;
+    height: 80px;  
+    background-color: rgb(255, 131, 86);
+    color: black;    
+    text-align: center;
+    padding-top: 20px;
+    /* position: fixed; */
+}
+
+.links{
+    color: rgb(110, 0, 114);
+    margin: 30px ;
+    text-decoration: none;
+}
+
+#linksheader{
+    margin-top: 15px;
+}
+
+#headerbanner{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+footer{
+    margin: 20px;
+    text-align: center;
+}
